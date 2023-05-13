@@ -1,7 +1,62 @@
 .header{
+  border-bottom: 1px solid transparent;
+  z-index: 981;
+  &.uk-active{
+    background: #FFFFFF;
+    border-color: rgba(210, 36, 43, 0.16);
+  }
   &__logo{
     img{
       @include fluidx(197px,120px,width);
+    }
+  }
+  .uk-navbar-item,
+  .uk-navbar-toggle{
+    @extend .header__navItem;
+  }
+  &__btn{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    line-height: 46px;
+    text-transform: inherit;
+    background: #D2242B;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    .header:not(.uk-active) &{
+
+    }
+  }
+  &__navbarNav{
+    @include media-breakpoint-up('m'){
+      gap: 40px;
+    }
+    >li{
+      >a{
+        font-family: 'Inter', sans-serif;
+        text-transform: inherit;
+        font-weight: 500;
+        @extend .header__navItem;
+        .header:not(.uk-active) &{
+          color: #FFFFFF;
+        }
+      }
+      &.uk-active{
+        >a{
+          color: #D2242B !important;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+  .uk-navbar-nav{
+    >li{
+      >a{
+
+      }
+    }
+  }
+  &__navItem{
+    @include media-breakpoint-up('m'){
+      min-height: 100px;
     }
   }
 }

@@ -26,8 +26,8 @@
 <!--app-->
 <div id="app" class="app uk-height-viewport uk-offcanvas-content uk-overflow-hidden uk-position-relative">
 <?php require "template-parts/layouts/jointeam.php"; ?>
-<div class="uk-position-top uk-position-z-index">
-    <nav class="uk-navbar-container uk-navbar-transparent" uk-sticky>
+<div class="uk-position-top" style="z-index: 981">
+    <nav class="header uk-navbar-container uk-navbar-transparent" uk-sticky>
         <div class="uk-container">
             <div uk-navbar>
 
@@ -36,7 +36,7 @@
                 </div>
 
                 <div class="uk-navbar-center">
-                    <ul class="uk-navbar-nav uk-visible@m">
+                    <ul class="uk-navbar-nav header__navbarNav uk-visible@m">
                         <li class="uk-active"><a href="#">Trang chủ</a></li>
                         <li><a href="#">Giới thiệu</a></li>
                         <li><a href="">Sự kiện</a></li>
@@ -47,7 +47,7 @@
                 </div>
                 <div class="uk-navbar-right">
                     <div class="uk-navbar-item">
-                        <a href="" class="uk-button uk-button-danger">Tuyển dụng</a>
+                        <a href="" class="header__btn uk-button uk-button-danger">Tuyển dụng</a>
                     </div>
                 </div>
 

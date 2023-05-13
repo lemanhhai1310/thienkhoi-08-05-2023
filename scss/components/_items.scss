@@ -69,6 +69,16 @@
       }
     }
   }
+  $max:60;
+  $min:38;
+  &__#{$max}-#{$min}{
+    &:nth-child(n+2){
+      margin-top: #{$min}px;
+      @include media-breakpoint-up('m'){
+        margin-top: #{$max}px;
+      }
+    }
+  }
   $max:49;
   $min:20;
   &__#{$max}-#{$min}{

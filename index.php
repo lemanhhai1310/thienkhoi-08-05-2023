@@ -326,7 +326,41 @@
 
 <!--Phản hồi về BĐS Thiên Khôi-->
 <div class="uk-section home__section">
+    <div class="uk-container">
+        <div class="home__title1 uk-text-center">Phản hồi về BĐS Thiên Khôi</div>
+        <div class="item__60-38">
+            <div class="uk-child-width-1-2@m uk-grid-40-m uk-grid-20 uk-visible@m uk-grid-match" uk-grid>
+                <?php
+                $data = array(
+                    array(
+                        'content' => '',
+                        'name' => 'Mrs. Sương ',
+                        'txt' => 'Chuyên viên Kinh doanh',
+                    ),
+                    array(
+                        'content' => '',
+                        'name' => 'Mr. Kháng',
+                        'txt' => 'Chủ đầu tư',
+                    ),
+                    array(
+                        'content' => '',
+                        'name' => 'Mrs. Đức',
+                        'txt' => 'Trưởng phòng Kinh doanh',
+                    ),
+                    array(
+                        'content' => '',
+                        'name' => 'Mr. Cầu',
+                        'txt' => 'Chuyên viên Quản lý nguồn',
+                    ),
+                );
+                foreach ($data as $v): ?>
+                <div>
 
+                </div>
+                <?php endforeach; ?>
+            </div>
+        </div>
+    </div>
 </div>
 <!--/Phản hồi về BĐS Thiên Khôi-->
 <?php require "template-parts/layouts/footer.php"; ?>
