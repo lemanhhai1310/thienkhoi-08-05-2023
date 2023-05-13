@@ -1,0 +1,7 @@
+.header{
+  &__logo{
+    img{
+      @include fluidx(197px,120px,width);
+    }
+  }
+}
