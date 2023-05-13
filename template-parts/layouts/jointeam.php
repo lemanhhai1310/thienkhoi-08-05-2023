@@ -1,7 +1,7 @@
 <div class="jointeam uk-padding-remove uk-margin-remove" uk-alert uk-sticky="position: bottom">
     <a class="uk-alert-close" uk-close></a>
     <nav class="jointeam__navbar uk-text-center uk-navbar-container uk-navbar-transparent">
-        <div class="uk-container uk-padding-remove-left">
+        <div class="uk-container">
             <div uk-navbar>
                 <div class="uk-navbar-left" style="min-width: 85px">
                     <div class="uk-navbar-item jointeam__navbarItem">
