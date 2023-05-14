@@ -333,31 +333,99 @@
                 <?php
                 $data = array(
                     array(
-                        'content' => '',
+                        'content' => 'Đến với Bất động sản là sự tình cờ khi công việc ngành Du lịch của tôi bị ảnh hưởng bởi dịch Covid. Tuy nhiên, nhờ vậy tôi mới biết tới nghề Môi giới Nhà đất tuyệt vời này. Được gặp gỡ những người giàu có cho tôi nhiều bài học, được hoà mình vào môi trường kinh doanh khiến mình năng động hơn.Ở Thiên Khôi tôi được đào tạo tất cả các góc cạnh về nghề Môi giới. Trong thời gian ngắn từ một bà mẹ 2 con rụt rè tôi đã tự tin kết nối rất nhiều thương vụ từ 10 tỷ tới hơn 20 tỷ và có được thu nhập bằng nhiều năm tôi làm trước đây cộng lại.',
                         'name' => 'Mrs. Sương ',
                         'txt' => 'Chuyên viên Kinh doanh',
                     ),
                     array(
-                        'content' => '',
+                        'content' => 'Đã làm việc với nhiều đơn vị Môi giới nhưng Thiên Khôi vẫn là đơn vị tôi gửi gắm niềm tin. Chắc chắn các bạn Sale được đào tạo rất bài bản các nghiệp vụ nên hiệu quả bán hàng rất cao. Các bạn làm việc rất chuyên nghiệp, nhân viên đưa khách hàng xem nhà luôn có cử chỉ lịch thiệp, ăn nói văn minh. Thường chỉ sau 1 tuần tôi đã bán nhà của mình qua Thiên Khôi với giá kỳ vọng. Là một Nhà đầu tư một năm xây bán hàng chục căn nhà, từ khi biết tới Thiên Khôi tôi luôn tự tin vào đầu ra cho các căn nhà mình xây dựng.',
                         'name' => 'Mr. Kháng',
                         'txt' => 'Chủ đầu tư',
                     ),
                     array(
-                        'content' => '',
+                        'content' => 'Là một nhà quản lý và đào tạo nhân sự Bất động sản hơn 8 năm kinh nghiệm, tôi nhận thấy môi trường Thiên Khôi rất lý tưởng cho sự phát triển của người Môi giới. Hệ thống đào tạo bài bản, chế độ phúc lợi cho anh chị em sale tốt nhất thị trường và đặc biệt là nguồn hàng được quản lý rất chuyên nghiệp. Việc chốt giao dịch không còn là chuyện may mắn nữa mà đó là sự kết hợp của hệ thống và nỗ lực học tập và làm việc chăm chỉ. Tôi rất tự tin để phát triển đội ngũ bán hàng tại Hà Nội hay Sài Gòn trong hệ sinh thái Thiên Khôi vững mạnh.',
                         'name' => 'Mrs. Đức',
                         'txt' => 'Trưởng phòng Kinh doanh',
                     ),
                     array(
-                        'content' => '',
+                        'content' => 'Bùm bùm bùm! Thương vụ đầu tiên nổ ra sau 2 tuần làm việc. Và cứ đà đó, sau 1 tuần chốt tiếp, rồi đỉnh cao nhất là 1 tuần 3 vụ liên hoàn. Cuộc sống bắt đầu thay đổi, đôi bàn tay trắng bắt đầu đều đặn đếm tiền. Thiên Khôi cho Cầu tư duy đúng trong việc bán hàng. Kết quả đến từ việc trao đi giá trị trước cho Khách hàng và Chủ nhà. Điều Cầu thấy ở Thiên Khôi là môi trường làm việc chuyên nghiệp, minh bạch chính trực với khách hàng và trong hệ thống với nhau. Công ty tôn vinh lòng hiếu thảo, sự chia sẻ, biết ơn và tinh thần hỗ trợ đồng đội tuyệt vời.',
                         'name' => 'Mr. Cầu',
                         'txt' => 'Chuyên viên Quản lý nguồn',
                     ),
                 );
                 foreach ($data as $v): ?>
-                <div>
-
+                <div class="home__phanhoi__column">
+                    <div class="uk-card home__phanhoi__card uk-text-center uk-card-default uk-height-min-medium uk-flex uk-flex-column">
+                        <div class="uk-flex-auto uk-padding-small home__phanhoi__card__content">
+                            <div><?= $v['content'] ?></div>
+                        </div>
+                        <div class="uk-card-body home__phanhoi__card__body">
+                            <div class="home__phanhoi__card__avarta uk-cover-container uk-border-circle uk-flex-inline">
+                                <img src="images/noimage.jpg" alt="" uk-cover="">
+                                <canvas width="160" height="160"></canvas>
+                            </div>
+                            <div class="home__phanhoi__card__name item__20"><?= $v['name'] ?></div>
+                            <div class="home__phanhoi__card__txt item__12"><?= $v['txt'] ?></div>
+                        </div>
+                    </div>
                 </div>
                 <?php endforeach; ?>
+            </div>
+
+            <div class="uk-hidden@m uk-slider-container-offset" uk-slider>
+
+                <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+
+                    <ul class="uk-slider-items uk-child-width-1-1" uk-grid>
+                        <?php
+                        $data = array(
+                            array(
+                                'content' => 'Đến với Bất động sản là sự tình cờ khi công việc ngành Du lịch của tôi bị ảnh hưởng bởi dịch Covid. Tuy nhiên, nhờ vậy tôi mới biết tới nghề Môi giới Nhà đất tuyệt vời này. Được gặp gỡ những người giàu có cho tôi nhiều bài học, được hoà mình vào môi trường kinh doanh khiến mình năng động hơn.Ở Thiên Khôi tôi được đào tạo tất cả các góc cạnh về nghề Môi giới. Trong thời gian ngắn từ một bà mẹ 2 con rụt rè tôi đã tự tin kết nối rất nhiều thương vụ từ 10 tỷ tới hơn 20 tỷ và có được thu nhập bằng nhiều năm tôi làm trước đây cộng lại.',
+                                'name' => 'Mrs. Sương ',
+                                'txt' => 'Chuyên viên Kinh doanh',
+                            ),
+                            array(
+                                'content' => 'Đã làm việc với nhiều đơn vị Môi giới nhưng Thiên Khôi vẫn là đơn vị tôi gửi gắm niềm tin. Chắc chắn các bạn Sale được đào tạo rất bài bản các nghiệp vụ nên hiệu quả bán hàng rất cao. Các bạn làm việc rất chuyên nghiệp, nhân viên đưa khách hàng xem nhà luôn có cử chỉ lịch thiệp, ăn nói văn minh. Thường chỉ sau 1 tuần tôi đã bán nhà của mình qua Thiên Khôi với giá kỳ vọng. Là một Nhà đầu tư một năm xây bán hàng chục căn nhà, từ khi biết tới Thiên Khôi tôi luôn tự tin vào đầu ra cho các căn nhà mình xây dựng.',
+                                'name' => 'Mr. Kháng',
+                                'txt' => 'Chủ đầu tư',
+                            ),
+                            array(
+                                'content' => 'Là một nhà quản lý và đào tạo nhân sự Bất động sản hơn 8 năm kinh nghiệm, tôi nhận thấy môi trường Thiên Khôi rất lý tưởng cho sự phát triển của người Môi giới. Hệ thống đào tạo bài bản, chế độ phúc lợi cho anh chị em sale tốt nhất thị trường và đặc biệt là nguồn hàng được quản lý rất chuyên nghiệp. Việc chốt giao dịch không còn là chuyện may mắn nữa mà đó là sự kết hợp của hệ thống và nỗ lực học tập và làm việc chăm chỉ. Tôi rất tự tin để phát triển đội ngũ bán hàng tại Hà Nội hay Sài Gòn trong hệ sinh thái Thiên Khôi vững mạnh.',
+                                'name' => 'Mrs. Đức',
+                                'txt' => 'Trưởng phòng Kinh doanh',
+                            ),
+                            array(
+                                'content' => 'Bùm bùm bùm! Thương vụ đầu tiên nổ ra sau 2 tuần làm việc. Và cứ đà đó, sau 1 tuần chốt tiếp, rồi đỉnh cao nhất là 1 tuần 3 vụ liên hoàn. Cuộc sống bắt đầu thay đổi, đôi bàn tay trắng bắt đầu đều đặn đếm tiền. Thiên Khôi cho Cầu tư duy đúng trong việc bán hàng. Kết quả đến từ việc trao đi giá trị trước cho Khách hàng và Chủ nhà. Điều Cầu thấy ở Thiên Khôi là môi trường làm việc chuyên nghiệp, minh bạch chính trực với khách hàng và trong hệ thống với nhau. Công ty tôn vinh lòng hiếu thảo, sự chia sẻ, biết ơn và tinh thần hỗ trợ đồng đội tuyệt vời.',
+                                'name' => 'Mr. Cầu',
+                                'txt' => 'Chuyên viên Quản lý nguồn',
+                            ),
+                        );
+                        foreach ($data as $v): ?>
+                            <li class="home__phanhoi__column">
+                                <div class="uk-card home__phanhoi__card uk-text-center uk-card-default uk-height-min-medium uk-flex uk-flex-column">
+                                    <div class="uk-flex-auto uk-padding-small home__phanhoi__card__content">
+                                        <div><?= $v['content'] ?></div>
+                                    </div>
+                                    <div class="uk-card-body home__phanhoi__card__body">
+                                        <div class="home__phanhoi__card__avarta uk-cover-container uk-border-circle uk-flex-inline">
+                                            <img src="images/noimage.jpg" alt="" uk-cover="">
+                                            <canvas width="160" height="160"></canvas>
+                                        </div>
+                                        <div class="home__phanhoi__card__name item__20"><?= $v['name'] ?></div>
+                                        <div class="home__phanhoi__card__txt item__12"><?= $v['txt'] ?></div>
+                                    </div>
+                                </div>
+                            </li>
+                        <?php endforeach; ?>
+                    </ul>
+
+                    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
+                </div>
+
+                <ul class="uk-slider-nav home__phanhoi__dotnav uk-dotnav uk-flex-center uk-margin"></ul>
+
             </div>
         </div>
     </div>
