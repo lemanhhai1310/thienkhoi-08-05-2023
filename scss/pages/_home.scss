@@ -167,6 +167,12 @@
     @include media-breakpoint-up('m'){
       padding: 60px 134px;
     }
+    &--tuyendung{
+      padding: 20px 14px;
+      @include media-breakpoint-up('m'){
+        padding: 40px;
+      }
+    }
     &__title1{
       color: #363636;
       line-height: 1.57;

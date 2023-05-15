@@ -20,7 +20,7 @@
                         <li><a href="">Bất động sản</a></li>
                         <li><a href="">Ký gửi nhà đất</a></li>
                         <li><a href="">Liên hệ</a></li>
-                        <li><a href="">Tuyển dụng</a></li>
+                        <li><a href="tuyendung.php">Tuyển dụng</a></li>
                     </ul>
                 </div>
                 <div class="uk-width-1-3@m">

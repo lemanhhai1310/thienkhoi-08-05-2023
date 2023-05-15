@@ -32,7 +32,7 @@
             <div uk-navbar>
 
                 <div class="uk-navbar-left">
-                    <a href="" class="uk-navbar-item uk-logo header__logo"><img src="images/logo_h.png" alt=""></a>
+                    <a href="." class="uk-navbar-item uk-logo header__logo"><img src="images/logo_h.png" alt=""></a>
                 </div>
 
                 <div class="uk-navbar-center">
