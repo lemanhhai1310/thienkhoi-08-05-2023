@@ -439,8 +439,59 @@
 
 <!--Blog-->
 <div class="uk-section-small home__blog">
-    <div class="uk-container">
+    <div class="uk-container uk-container-expand-right">
+        <div class="uk-position-relative">
+            <div class="home__blog__divider uk-visible@m"></div>
+            <div class="uk-grid-60-m uk-grid-20 uk-grid uk-flex-middle" uk-grid>
+                <div class="uk-width-auto@m">
+                    <div class="home__blog__width">
+                        <div class="home__blog__label">Blog</div>
+                        <div class="home__title1 item__16">Sự kiện và tin tức mới nhất tại Thiên Khôi</div>
+                        <div class="home__blog__txt item__20-16">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </div>
+                        <div class="home__blog__txt item__20-10">readable content of a page when looking at its layout. </div>
+                        <div class="item__20-16">
+                            <form class="home__blog__width1 uk-grid-collapse uk-grid uk-grid-match" uk-grid>
+                                <div class="uk-width-expand">
+                                    <input class="uk-input home__blog__form__input" type="text" placeholder="Nhập số điện thoại/Email" aria-label="Nhập số điện thoại/Email">
+                                </div>
+                                <div class="uk-width-auto">
+                                    <button class="home__blog__form__btn uk-button uk-button-danger">Đăng ký</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-width-expand">
+                    <div class="uk-slider-container-offset uk-position-relative uk-visible-toggle" tabindex="-1" uk-slider="finite: true">
 
+                        <ul class="uk-slider-items uk-grid uk-grid-20 uk-grid-40-m" uk-grid>
+                            <?php for ($i=1;$i<=5;$i++): ?>
+                            <li class="uk-width-auto">
+                                <div class="home__blog__card uk-card uk-card-default">
+                                    <div class="uk-cover-container">
+                                        <img src="https://picsum.photos/305/200/?random=<?= $i ?>" alt="" uk-cover="">
+                                        <canvas width="305" height="200"></canvas>
+                                        <a href="" class="uk-position-cover"></a>
+                                    </div>
+                                    <div class="uk-card-body home__blog__card__body">
+                                        <h5 class="uk-h5 uk-margin-remove home__blog__card__title"><a href="" class="uk-link-toggle">It is a long established fact that a reader will be distracted</a></h5>
+                                        <div class="home__blog__card__txt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</div>
+                                        <div class="uk-flex uk-flex-middle">
+                                            <span class="home__blog__card__txtSmall">Admin</span>
+                                            <span class="home__blog__card__txtSmall">26 th2 2023</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <?php endfor; ?>
+                        </ul>
+
+                        <ul class="uk-slider-nav uk-dotnav home__blog__dotnav uk-flex-center uk-position-bottom"></ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 <!--/Blog-->
