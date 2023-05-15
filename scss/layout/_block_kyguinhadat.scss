@@ -1,0 +1,81 @@
+.block_kyguinhadat{
+  &__banner{
+    canvas{
+
+    }
+  }
+  &__locationTxt{
+    color: #363636;
+    @include fluidx(16px,14px,font-size);
+    font-weight: 600;
+    line-height: 1.57;
+    @include media-breakpoint-up('m'){
+      line-height: 1.5;
+    }
+  }
+  &__txt{
+    color: #363636;
+    line-height: 1.71;
+    @include media-breakpoint-up('m'){
+      line-height: 1.75;
+    }
+    font-weight: 500;
+    @include fluidx(16px,14px,font-size);
+  }
+  &__btn{
+    padding: 0 40px;
+    @include media-breakpoint-up('m'){
+      padding: 0 53px;
+    }
+    font-weight: 600;
+    line-height: 46px;
+    text-transform: inherit;
+    background: #D2242B;
+    @include fluidx(16px,14px,font-size);
+  }
+  &__boxTitle{
+    &:before,&:after{
+      content: "";
+      position: absolute;
+      width: 100vw;
+      height: 4px;
+      display: flex;
+      background: #D2242B;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    &:before{
+      right: 100%;
+    }
+    &:after{
+      left: 100%;
+    }
+    position: relative;
+    display: flex;
+    min-height: 48px;
+    background: #D2242B;
+    color: #fff;
+    font-weight: 700;
+    margin: 0 -12px;
+    @include fluidx(24px,18px,font-size);
+    @include media-breakpoint-up('m'){
+      min-height: 60px;
+      border-radius: 500px;
+      padding: 0 50px;
+      display: inline-flex;
+    }
+  }
+  &__card{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.2);
+  }
+  &__body{
+    overflow: hidden;
+    padding: 12px;
+    padding-bottom: 40px;
+    @include media-breakpoint-up('m'){
+      padding: 40px;
+      padding-bottom: 60px;
+    }
+  }
+}

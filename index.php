@@ -231,6 +231,7 @@
         <!--/Quyền lợi của nhân viên kinh doanh-->
     </div>
 </div>
+
 <!--Đăng ký ứng tuyển -->
 <div class="home__dky">
     <div class="uk-container">
@@ -431,4 +432,17 @@
     </div>
 </div>
 <!--/Phản hồi về BĐS Thiên Khôi-->
+
+<!--KÝ GỬI NHÀ ĐẤT TOÀN QUỐC-->
+<?php require "template-parts/layouts/block_kyguinhadat.php"; ?>
+<!--/KÝ GỬI NHÀ ĐẤT TOÀN QUỐC-->
+
+<!--Blog-->
+<div class="uk-section-small home__blog">
+    <div class="uk-container">
+
+    </div>
+</div>
+<!--/Blog-->
+
 <?php require "template-parts/layouts/footer.php"; ?>
