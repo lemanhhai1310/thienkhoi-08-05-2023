@@ -298,7 +298,7 @@
         <div class="home__title1 uk-text-center">Khoá học Môi giới Nhà đất cơ bản tại Thiên Khôi</div>
         <div class="item__60-40">
             <div class="uk-visible@m">
-                <div class="uk-child-width-auto uk-flex-nowrap uk-grid-collapse uk-flex-center" uk-grid>
+                <div class="tuyendung__card3__grid uk-child-width-auto uk-flex-nowrap uk-grid-collapse uk-flex-center" uk-grid>
                     <?php
                     $data = array(
                         'Kiến thức cơ bản về bất động sản Thổ cư',
@@ -309,13 +309,14 @@
                     );
                     foreach ($data as $k=>$v): ?>
                     <div class="tuyendung__card3__column">
-                        <div class="tuyendung__card3 uk-card uk-card-body" style="z-index: <?= 99 - $k ?>">
-
+                        <div class="tuyendung__card3 uk-card uk-card-body uk-flex uk-flex-column" style="z-index: <?= 99 - $k ?>">
+                            <div class="tuyendung__card3__txt1">Buổi <?= $k+1 ?></div>
+                            <div class="item__40 tuyendung__card3__txt2"><?= $v ?></div>
                         </div>
                     </div>
                     <?php endforeach; ?>
                 </div>
-                <div class="uk-child-width-auto uk-flex-nowrap uk-grid-collapse uk-flex-center" uk-grid>
+                <div class="tuyendung__card3__grid uk-child-width-auto uk-flex-nowrap uk-grid-collapse uk-flex-center" uk-grid>
                     <?php
                     $data = array(
                         'Dẫn khách xem nhà, các tình huống thực tế khi dẫn khách',
@@ -326,8 +327,9 @@
                     );
                     foreach ($data as $k=>$v): ?>
                         <div class="tuyendung__card3__column">
-                            <div class="tuyendung__card3 uk-card uk-card-body" style="z-index: <?= 99 - $k ?>">
-
+                            <div class="tuyendung__card3 uk-card uk-card-body uk-flex uk-flex-column" style="z-index: <?= 99 - $k ?>">
+                                <div class="tuyendung__card3__txt1">Buổi <?= $k+6 ?></div>
+                                <div class="item__40 tuyendung__card3__txt2"><?= $v ?></div>
                             </div>
                         </div>
                     <?php endforeach; ?>
@@ -365,7 +367,44 @@
 </div>
 <!--/Khoá học Môi giới Nhà đất cơ bản tại Thiên Khôi-->
 
-
-
-
+<!--Những câu hỏi và thắc mắc thường gặp -->
+<div class="uk-section tuyendung__cauhoi">
+    <div class="uk-container">
+        <div class="uk-flex-center" uk-grid>
+            <div class="uk-width-auto">
+                <div class="tuyendung__cauhoi__width">
+                    <div class="home__title1 uk-text-center">Những câu hỏi và thắc mắc <br class="uk-visible@m"> thường gặp </div>
+                    <ul class="item__40-20" uk-accordion>
+                        <li class="uk-open">
+                            <a class="uk-accordion-title" href="#">Item 1</a>
+                            <div class="uk-accordion-content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a class="uk-accordion-title" href="#">Item 2</a>
+                            <div class="uk-accordion-content">
+                                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a class="uk-accordion-title" href="#">Item 3</a>
+                            <div class="uk-accordion-content">
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a class="uk-accordion-title" href="#">Item 4</a>
+                            <div class="uk-accordion-content">
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--/Những câu hỏi và thắc mắc thường gặp -->
+<div class="item__120-80"></div>
 <?php require "template-parts/layouts/footer.php"; ?>

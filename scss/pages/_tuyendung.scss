@@ -133,14 +133,51 @@
     }
   }
   &__card3{
+    &__grid{
+      &:nth-child(n+2){
+        margin-top: calc(-33px + 21px);
+      }
+    }
     &__column{
 
     }
+    &__txt1{
+      color: #D2242B;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 1;
+      position: relative;
+      &:after{
+        position: absolute;
+        right: -40px;
+        top: 50%;
+        transform: translateY(-50%);
+        content: "";
+        width: 20px;
+        height: 20px;
+        display: flex;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11.6724 15.62C11.5068 15.6209 11.3447 15.5726 11.2067 15.4811C11.0688 15.3895 10.9612 15.259 10.8977 15.1061C10.8342 14.9532 10.8177 14.7848 10.8503 14.6225C10.8828 14.4602 10.963 14.3112 11.0806 14.1946L15.4983 9.78518L11.0806 5.37573C10.944 5.21627 10.8726 5.01116 10.8808 4.80137C10.8889 4.59159 10.9758 4.39259 11.1243 4.24414C11.2727 4.09569 11.4717 4.00872 11.6815 4.00062C11.8913 3.99252 12.0964 4.06388 12.2559 4.20043L17.2571 9.2017C17.4124 9.35787 17.4995 9.56913 17.4995 9.78934C17.4995 10.0096 17.4124 10.2208 17.2571 10.377L12.2559 15.3783C12.1006 15.5322 11.891 15.6191 11.6724 15.62Z' fill='%23D2242B'/%3E%3Cpath d='M5.00029 15.8332C4.83477 15.8341 4.67271 15.7858 4.53478 15.6943C4.39685 15.6028 4.28929 15.4723 4.22581 15.3194C4.16234 15.1665 4.14583 14.9982 4.17839 14.8359C4.21095 14.6736 4.2911 14.5247 4.40862 14.4082L8.82529 9.99983L4.40862 5.5915C4.2517 5.43458 4.16355 5.22175 4.16355 4.99983C4.16355 4.77791 4.2517 4.56508 4.40862 4.40816C4.56554 4.25124 4.77837 4.16309 5.00029 4.16309C5.22221 4.16309 5.43504 4.25124 5.59196 4.40816L10.592 9.40816C10.7472 9.5643 10.8343 9.77551 10.8343 9.99566C10.8343 10.2158 10.7472 10.427 10.592 10.5832L5.59196 15.5832C5.51478 15.6619 5.42274 15.7245 5.32118 15.7675C5.21961 15.8104 5.11055 15.8327 5.00029 15.8332Z' fill='%23D2242B'/%3E%3C/svg%3E%0A");
+        .tuyendung__card3__column:last-child &{
+          opacity: 0;
+        }
+      }
+    }
+    &__txt2{
+      color: #262626;
+      line-height: 1.75;
+      font-size: 16px;
+      font-weight: 500;
+    }
+    text-align: center;
     position: relative;
     width: 299px !important;
     min-height: 224px;
     background-size: contain;
     background-repeat: no-repeat;
+    padding-top: 49px;
+    padding-right: 80px;
     .tuyendung__card3__column:nth-child(2n) &{
       background-image: url("data:image/svg+xml,%3Csvg width='299' height='224' viewBox='0 0 299 224' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg filter='url(%23filter0_d_712_55811)'%3E%3Cpath d='M8 12H258.66V26.6153C258.66 30.0406 260.124 33.3026 262.682 35.5797L278.927 50.0356C284.29 54.8085 284.29 63.1915 278.927 67.9644L262.682 82.4203C260.124 84.6974 258.66 87.9594 258.66 91.3847V212H8V12Z' fill='%23FFFCF3'/%3E%3C/g%3E%3Cdefs%3E%3Cfilter id='filter0_d_712_55811' x='0' y='0' width='298.949' height='224' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix'/%3E%3CfeColorMatrix in='SourceAlpha' type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0' result='hardAlpha'/%3E%3CfeOffset dx='4'/%3E%3CfeGaussianBlur stdDeviation='6'/%3E%3CfeComposite in2='hardAlpha' operator='out'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0'/%3E%3CfeBlend mode='normal' in2='BackgroundImageFix' result='effect1_dropShadow_712_55811'/%3E%3CfeBlend mode='normal' in='SourceGraphic' in2='effect1_dropShadow_712_55811' result='shape'/%3E%3C/filter%3E%3C/defs%3E%3C/svg%3E%0A");
     }
@@ -154,5 +191,20 @@
     .tuyendung__card3__column:nth-child(n + 2) &{
       margin-left: -48px;
     }
+  }
+  &__cauhoi{
+    background-color: #F5F5F5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    min-height: 516px;
+    @include media-breakpoint-up('m'){
+      padding-top: 40px;
+      padding-bottom: 80px;
+    }
+    &__width{
+      max-width: 100%;
+      width: 580px;
+    }
+
   }
 }

@@ -27,7 +27,7 @@
 <div id="app" class="app uk-height-viewport uk-offcanvas-content uk-overflow-hidden uk-position-relative">
 <?php require "template-parts/layouts/jointeam.php"; ?>
 <div class="uk-position-top" style="z-index: 981">
-    <nav class="header uk-navbar-container uk-navbar-transparent" uk-sticky>
+    <nav class="header uk-navbar-container uk-navbar-transparent" uk-sticky="show-on-up: true;animation: uk-animation-slide-top">
         <div class="uk-container">
             <div uk-navbar>
 

@@ -52,6 +52,16 @@
     }
   }
   $max:120;
+  $min:80;
+  &__#{$max}-#{$min}{
+    &:nth-child(n+2){
+      margin-top: #{$min}px;
+      @include media-breakpoint-up('m'){
+        margin-top: #{$max}px;
+      }
+    }
+  }
+  $max:120;
   $min:20;
   &__#{$max}-#{$min}{
     &:nth-child(n+2){
