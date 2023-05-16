@@ -160,8 +160,8 @@
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.16);
     max-width: 100%;
     width: 886px;
-    margin-top: -290px;
-    @include fluidx(-290px,-120px,margin-top);
+    //margin-top: -290px;
+    @include fluidx(-373px,-120px,margin-top);
     padding: 20px;
     text-align: center;
     @include media-breakpoint-up('m'){

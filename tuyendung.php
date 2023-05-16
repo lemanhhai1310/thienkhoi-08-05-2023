@@ -374,28 +374,28 @@
             <div class="uk-width-auto">
                 <div class="tuyendung__cauhoi__width">
                     <div class="home__title1 uk-text-center">Những câu hỏi và thắc mắc <br class="uk-visible@m"> thường gặp </div>
-                    <ul class="item__40-20" uk-accordion>
-                        <li class="uk-open">
-                            <a class="uk-accordion-title" href="#">Item 1</a>
-                            <div class="uk-accordion-content">
+                    <ul class="item__40-20 uk-margin-remove-bottom tuyendung__cauhoi__accordion" uk-accordion>
+                        <li class="tuyendung__cauhoi__accordion__li">
+                            <a class="uk-accordion-title tuyendung__cauhoi__accordion__title" href="#">1. Lorem Ipsum is simply dummy text of the printing</a>
+                            <div class="uk-accordion-content tuyendung__cauhoi__accordion__content">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             </div>
                         </li>
-                        <li>
-                            <a class="uk-accordion-title" href="#">Item 2</a>
-                            <div class="uk-accordion-content">
+                        <li class="tuyendung__cauhoi__accordion__li">
+                            <a class="uk-accordion-title tuyendung__cauhoi__accordion__title" href="#">2. Lorem Ipsum is simply dummy text of the printing</a>
+                            <div class="uk-accordion-content tuyendung__cauhoi__accordion__content">
                                 <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
                             </div>
                         </li>
-                        <li>
-                            <a class="uk-accordion-title" href="#">Item 3</a>
-                            <div class="uk-accordion-content">
+                        <li class="tuyendung__cauhoi__accordion__li">
+                            <a class="uk-accordion-title tuyendung__cauhoi__accordion__title" href="#">3. Lorem Ipsum is simply dummy text of the printing</a>
+                            <div class="uk-accordion-content tuyendung__cauhoi__accordion__content">
                                 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
                             </div>
                         </li>
-                        <li>
-                            <a class="uk-accordion-title" href="#">Item 4</a>
-                            <div class="uk-accordion-content">
+                        <li class="tuyendung__cauhoi__accordion__li">
+                            <a class="uk-accordion-title tuyendung__cauhoi__accordion__title" href="#">4. Lorem Ipsum is simply dummy text of the printing</a>
+                            <div class="uk-accordion-content tuyendung__cauhoi__accordion__content">
                                 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
                             </div>
                         </li>
