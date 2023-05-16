@@ -235,7 +235,7 @@
 <!--Đăng ký ứng tuyển -->
 <div class="home__dky">
     <div class="uk-container">
-        <div class="uk-child-width-1-2@m uk-grid-40" uk-grid>
+        <div class="uk-child-width-1-2@m uk-grid-40 uk-grid-match" uk-grid>
             <div>
                 <div class="home__dky__card uk-card uk-card-default">
                     <div class="home__dky__card__title home__dky__card__title--c1">Mô tả công việc</div>
@@ -319,6 +319,7 @@
                         <button class="uk-button home__dky__form__btnSubmit uk-button-danger uk-border-rounded uk-width">Đăng ký</button>
                     </div>
                 </form>
+                <div class="item__80-0"></div>
             </div>
         </div>
     </div>

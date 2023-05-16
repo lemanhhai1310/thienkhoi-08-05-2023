@@ -14,11 +14,11 @@
                 <div class="uk-width-expand">
                     <div class="footer__title">DAnh mục</div>
                     <ul class="footer__nav uk-nav-default footer__item40" uk-nav>
-                        <li><a href="">Trang chủ</a></li>
+                        <li><a href=".">Trang chủ</a></li>
                         <li><a href="">Giới thiệu</a></li>
                         <li><a href="">Sự kiện</a></li>
                         <li><a href="">Bất động sản</a></li>
-                        <li><a href="">Ký gửi nhà đất</a></li>
+                        <li><a href="kyguinhadat.php">Ký gửi nhà đất</a></li>
                         <li><a href="">Liên hệ</a></li>
                         <li><a href="tuyendung.php">Tuyển dụng</a></li>
                     </ul>

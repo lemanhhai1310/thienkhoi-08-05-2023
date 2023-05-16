@@ -1,0 +1,29 @@
+.kyguinhadat{
+  &__banner{
+    //@include fluidx(659px,300px,height);
+  }
+  &__card{
+    &__txt1{
+      line-height: 1.4;
+      font-weight: 700;
+      color: #137D7A;
+      font-size: 20px;
+    }
+    &__txt2{
+      line-height: 1.75;
+      color: #000;
+      font-size: 16px;
+    }
+  }
+  &__form{
+    &__txt{
+      font-weight: 500;
+      color: #EAEAEA;
+      @include fluidx(16px,14px,font-size);
+      line-height: 1.57;
+      @include media-breakpoint-up('m'){
+        line-height: 1.75;
+      }
+    }
+  }
+}

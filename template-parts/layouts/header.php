@@ -37,11 +37,11 @@
 
                 <div class="uk-navbar-center">
                     <ul class="uk-navbar-nav header__navbarNav uk-visible@m">
-                        <li class="uk-active"><a href="#">Trang chủ</a></li>
+                        <li class="uk-active"><a href=".">Trang chủ</a></li>
                         <li><a href="#">Giới thiệu</a></li>
                         <li><a href="">Sự kiện</a></li>
                         <li><a href="">Đào tạo</a></li>
-                        <li><a href="">Ký gửi nhà đất</a></li>
+                        <li><a href="kyguinhadat.php">Ký gửi nhà đất</a></li>
                         <li><a href="">Liên hệ</a></li>
                     </ul>
                 </div>
@@ -52,11 +52,11 @@
                     <a class="uk-navbar-toggle uk-navbar-toggle-animate uk-hidden@m" uk-navbar-toggle-icon href="#"></a>
                     <div class="uk-navbar-dropdown">
                         <ul class="uk-nav uk-navbar-dropdown-nav">
-                            <li class="uk-active"><a href="#">Trang chủ</a></li>
+                            <li class="uk-active"><a href=".">Trang chủ</a></li>
                             <li><a href="#">Giới thiệu</a></li>
                             <li><a href="">Sự kiện</a></li>
                             <li><a href="">Đào tạo</a></li>
-                            <li><a href="">Ký gửi nhà đất</a></li>
+                            <li><a href="kyguinhadat.php">Ký gửi nhà đất</a></li>
                             <li><a href="">Liên hệ</a></li>
                         </ul>
                     </div>
