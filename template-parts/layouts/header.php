@@ -22,7 +22,7 @@
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.17/dist/js/uikit-icons.min.js"></script>
     <script src="js/app.js?v=<?php echo(time()) ?>"></script>
 </head>
-<body class="">
+<body class="<?= isset($bodyClass) ? $bodyClass : '' ?>">
 <!--app-->
 <div id="app" class="app uk-height-viewport uk-offcanvas-content uk-overflow-hidden uk-position-relative">
 <?php require "template-parts/layouts/jointeam.php"; ?>
@@ -38,7 +38,7 @@
                 <div class="uk-navbar-center">
                     <ul class="uk-navbar-nav header__navbarNav uk-visible@m">
                         <li class="uk-active"><a href=".">Trang chủ</a></li>
-                        <li><a href="#">Giới thiệu</a></li>
+                        <li><a href="about.php">Giới thiệu</a></li>
                         <li><a href="">Sự kiện</a></li>
                         <li><a href="">Đào tạo</a></li>
                         <li><a href="kyguinhadat.php">Ký gửi nhà đất</a></li>
@@ -53,7 +53,7 @@
                     <div class="uk-navbar-dropdown">
                         <ul class="uk-nav uk-navbar-dropdown-nav">
                             <li class="uk-active"><a href=".">Trang chủ</a></li>
-                            <li><a href="#">Giới thiệu</a></li>
+                            <li><a href="about.php">Giới thiệu</a></li>
                             <li><a href="">Sự kiện</a></li>
                             <li><a href="">Đào tạo</a></li>
                             <li><a href="kyguinhadat.php">Ký gửi nhà đất</a></li>

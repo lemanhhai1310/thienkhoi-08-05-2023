@@ -15,7 +15,7 @@
                     <div class="footer__title">DAnh mục</div>
                     <ul class="footer__nav uk-nav-default footer__item40" uk-nav>
                         <li><a href=".">Trang chủ</a></li>
-                        <li><a href="">Giới thiệu</a></li>
+                        <li><a href="about.php">Giới thiệu</a></li>
                         <li><a href="">Sự kiện</a></li>
                         <li><a href="">Bất động sản</a></li>
                         <li><a href="kyguinhadat.php">Ký gửi nhà đất</a></li>

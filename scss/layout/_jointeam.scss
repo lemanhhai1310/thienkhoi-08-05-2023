@@ -27,18 +27,18 @@
   &__navbarItem{
     min-height: 85px;
     @include media-breakpoint-up('m'){
-      min-height: 140px;
+      min-height: 80px;
 
     }
   }
   &__txt{
     color: #D2242B;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 1.5;
     @include media-breakpoint-up('m'){
-      line-height: 1.6;
+      line-height: 1.44;
     }
-    @include fluidx(20px,12px,font-size);
+    @include fluidx(18px,12px,font-size);
   }
   &__btn{
     font-family: 'Inter', sans-serif;
@@ -56,6 +56,6 @@
     }
   }
   &__img{
-    @include fluidx(217px,87px,width);
+    @include fluidx(110px,87px,width);
   }
 }
