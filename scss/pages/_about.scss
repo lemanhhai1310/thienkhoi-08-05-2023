@@ -1,4 +1,10 @@
 .about{
+  &__tab{
+
+  }
+  &__listTab{
+
+  }
   &__section1{
     @include media-breakpoint-up('m'){
       min-height: 801px;

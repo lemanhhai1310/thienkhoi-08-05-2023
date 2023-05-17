@@ -68,7 +68,7 @@
         <div class="uk-grid" uk-grid>
             <div class="uk-width-expand">
                 <div class="home__title1">Mục tiêu và giá trị Thiên Khôi hướng tới</div>
-                <ul class="item__40-20" uk-tab>
+                <ul class="item__40-20 about__tab" uk-tab>
                     <li><a href="#">Tầm nhìn</a></li>
                     <li><a href="#">Sứ mệnh</a></li>
                     <li><a href="#">Giá trị</a></li>
@@ -76,10 +76,10 @@
 
                 <ul class="uk-switcher item__32-16">
                     <li>
-                        <ul class="uk-list uk-list-bullet">
-                            <li>Đưa thương hiệu Bất động sản Thiên Khôi không ngừng phát triển trên thị trường Bất động sản.</li>
-                            <li>Tập trung đào tạo và phát triển nguồn lực để tạo nên đội ngũ Môi giới chuyên nghiệp uy tín, có năng lực cao.</li>
-                            <li>Mở rộng quy mô hoạt động trên mọi loại hình Bất động sản, mang lại nhiều sự lựa chọn cho khách hàng.</li>
+                        <ul class="uk-list uk-list-bullet about__listTab">
+                            <li>Đưa thương hiệu <strong>Bất động sản Thiên Khôi</strong> không ngừng phát triển trên thị trường Bất động sản.</li>
+                            <li>Tập trung <strong>đào tạo</strong> và <strong>phát triển nguồn lực</strong> để tạo nên đội ngũ Môi giới chuyên nghiệp uy tín, có năng lực cao.</li>
+                            <li><strong>Mở rộng quy mô</strong> hoạt động trên mọi loại hình Bất động sản, mang lại nhiều sự lựa chọn cho khách hàng.</li>
                         </ul>
                     </li>
                     <li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
