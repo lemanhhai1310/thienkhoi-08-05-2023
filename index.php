@@ -273,16 +273,16 @@
                     <div class="uk-width-1-1">
                         <input class="uk-input home__dky__form__input" type="text" placeholder="Họ và tên" aria-label="Họ và tên">
                     </div>
-                    <div class="uk-width-1-2@m">
+                    <div class="uk-width-1-2">
                         <input class="uk-input home__dky__form__input" type="text" placeholder="Số điện thoại" aria-label="Số điện thoại">
                     </div>
-                    <div class="uk-width-1-2@m">
+                    <div class="uk-width-1-2">
                         <input class="uk-input home__dky__form__input" type="text" placeholder="Email" aria-label="Email">
                     </div>
-                    <div class="uk-width-1-2@m">
+                    <div class="uk-width-1-2">
                         <input class="uk-input home__dky__form__input" type="text" placeholder="Năm sinh (vd: 1999)" aria-label="Năm sinh (vd: 1999)">
                     </div>
-                    <div class="uk-width-1-2@m">
+                    <div class="uk-width-1-2">
                         <input class="uk-input home__dky__form__input" type="text" placeholder="Bốn số cuối CCCD/CMND (vd: 6868)" aria-label="Bốn số cuối CCCD/CMND (vd: 6868)">
                     </div>
                     <div class="uk-width-1-1">
