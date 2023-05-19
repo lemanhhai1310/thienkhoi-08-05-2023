@@ -646,6 +646,9 @@
       }
       &__title{
         @include fluidx(20px,18px,font-size);
+        .tintuc__box &{
+          @include font-size(24px !important);
+        }
         font-weight: 600;
         line-height: 1.33;
         @include media-breakpoint-up('m'){
@@ -653,6 +656,9 @@
         }
         a{
           color: rgba(38, 38, 38, 0.9);
+          .tintuc__section &{
+            color: #002A40 !important;
+          }
         }
       }
       &__txt{

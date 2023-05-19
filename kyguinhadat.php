@@ -1,5 +1,6 @@
 <?php $data["title"] = "Ký gửi nhà đất"; ?>
 <?php $bodyClass = '' ?>
+<?php $menu_position = true ?>
 <?php require "template-parts/layouts/header.php"; ?>
 <div uk-parallax="bgy: -200;media: @m" class="bg_banner kyguinhadat__banner uk-background-norepeat uk-background-top-center uk-background-cover" data-src="images/banner_home.png" uk-img>
 

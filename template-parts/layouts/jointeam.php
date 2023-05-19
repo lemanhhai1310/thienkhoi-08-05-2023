@@ -18,7 +18,7 @@
                 <div class="uk-navbar-right uk-flex-nowrap">
                     <div class="uk-navbar-item jointeam__navbarItem uk-hidden@m uk-flex-auto">
                         <div class="jointeam__txt">
-                            Tham gia bán 50.000 căn nhà đã xác thực cùng Bất Động Sản Thiên Khôi !
+                            Tham gia bán 50.000 căn nhà đã xác thực cùng BĐS Thiên Khôi !
                         </div>
                     </div>
                     <div class="uk-navbar-item jointeam__navbarItem">

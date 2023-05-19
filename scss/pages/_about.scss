@@ -1,9 +1,36 @@
 .about{
   &__tab{
-
+    &:before{
+      opacity: 0;
+    }
+    gap: 20px;
+    >*{
+      >*{
+        line-height: 1.75;
+        padding: 8px 0 !important;
+        font-weight: 600;
+        font-size: 16px !important;
+        color: #262626 !important;
+        text-transform: inherit !important;
+      }
+      &.uk-active{
+        >*{
+          border-color: #D2242B !important;
+          border-width: 2px;
+          color: #D2242B !important;
+        }
+      }
+    }
   }
   &__listTab{
-
+    >*{
+      color: #262626;
+      //line-height: 1.75;
+      font-weight: 500;
+      strong{
+        color: #D2242B;
+      }
+    }
   }
   &__section1{
     @include media-breakpoint-up('m'){

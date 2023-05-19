@@ -1,5 +1,6 @@
 <?php $data["title"] = "Giới thiệu"; ?>
 <?php $bodyClass = 'about' ?>
+<?php $menu_position = true ?>
 <?php require "template-parts/layouts/header.php"; ?>
 <div class="about__section1 uk-flex uk-flex-bottom">
     <div class="uk-width uk-section about__section1__box">
@@ -8,7 +9,7 @@
                 <div class="uk-width-auto">
                     <div class="about__section1__img uk-position-relative">
                         <div class="uk-cover-container">
-                            <img src="images/noimage.jpg" alt="" uk-cover="">
+                            <img src="images/photo.jpg" alt="" uk-cover="">
                             <canvas width="650" height="560"></canvas>
                         </div>
                         <img class="uk-position-center-right-out uk-visible@m" src="images/preview1.png" alt="">
@@ -82,8 +83,20 @@
                             <li><strong>Mở rộng quy mô</strong> hoạt động trên mọi loại hình Bất động sản, mang lại nhiều sự lựa chọn cho khách hàng.</li>
                         </ul>
                     </li>
-                    <li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                    <li>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, sed do eiusmod.</li>
+                    <li>
+                        <ul class="uk-list uk-list-bullet about__listTab">
+                            <li>Đưa thương hiệu <strong>Bất động sản Thiên Khôi</strong> không ngừng phát triển trên thị trường Bất động sản.</li>
+                            <li>Tập trung <strong>đào tạo</strong> và <strong>phát triển nguồn lực</strong> để tạo nên đội ngũ Môi giới chuyên nghiệp uy tín, có năng lực cao.</li>
+                            <li><strong>Mở rộng quy mô</strong> hoạt động trên mọi loại hình Bất động sản, mang lại nhiều sự lựa chọn cho khách hàng.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="uk-list uk-list-bullet about__listTab">
+                            <li>Đưa thương hiệu <strong>Bất động sản Thiên Khôi</strong> không ngừng phát triển trên thị trường Bất động sản.</li>
+                            <li>Tập trung <strong>đào tạo</strong> và <strong>phát triển nguồn lực</strong> để tạo nên đội ngũ Môi giới chuyên nghiệp uy tín, có năng lực cao.</li>
+                            <li><strong>Mở rộng quy mô</strong> hoạt động trên mọi loại hình Bất động sản, mang lại nhiều sự lựa chọn cho khách hàng.</li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
             <div class="uk-width-auto">
@@ -163,6 +176,21 @@
         <!--/Lĩnh vực hoạt động bất động sản Thiên Khôi-->
     </div>
 </div>
+
+<!--Cam kết của Thiên Khôi-->
+<div class="uk-section home__section" style="background: #FFFCF4;">
+    <div class="uk-container">
+        <div class="uk-grid uk-child-width-1-2@m" uk-grid>
+            <div>
+                <img src="images/camket.png" alt="">
+            </div>
+            <div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<!--/Cam kết của Thiên Khôi-->
 
 <!--Đăng ký ứng tuyển -->
 <div class="home__dky">

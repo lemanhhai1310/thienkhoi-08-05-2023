@@ -1,5 +1,6 @@
 <?php $data["title"] = "Tuyển dụng"; ?>
 <?php $bodyClass = '' ?>
+<?php $menu_position = true ?>
 <?php require "template-parts/layouts/header.php"; ?>
 <div uk-parallax="bgy: -200;media: @m" class="bg_banner uk-background-norepeat uk-background-top-center uk-background-cover" data-src="images/banner_td.png" uk-img>
 

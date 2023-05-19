@@ -25,10 +25,9 @@
     @extend .footer__blockRegister;
   }
   &__navbarItem{
-    min-height: 85px;
+    //min-height: 80px;
     @include media-breakpoint-up('m'){
-      min-height: 80px;
-
+      //min-height: 80px;
     }
   }
   &__txt{
@@ -46,8 +45,8 @@
     text-transform: inherit;
     background: #D2242B;
     white-space: nowrap;
-    padding-left: 14px;
-    padding-right: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
     @include fluidx(16px,14px,font-size);
     @include media-breakpoint-up('m'){
       padding-left: 30px;
@@ -56,6 +55,6 @@
     }
   }
   &__img{
-    @include fluidx(110px,87px,width);
+    @include fluidx(110px,80px,width);
   }
 }
