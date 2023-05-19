@@ -1,4 +1,18 @@
 .about{
+  &__camket{
+    &__txt1{
+      color: #0F868D;
+      @include font-size(24px);
+      font-weight: 700;
+      line-height: 1.33;
+    }
+    &__txt2{
+      color: rgba(38, 38, 38, 0.8);
+      @include fluidx(16px,14px,font-size);
+      line-height: 1.75;
+      font-weight: 500;
+    }
+  }
   &__tab{
     &:before{
       opacity: 0;

@@ -180,12 +180,42 @@
 <!--Cam kết của Thiên Khôi-->
 <div class="uk-section home__section" style="background: #FFFCF4;">
     <div class="uk-container">
-        <div class="uk-grid uk-child-width-1-2@m" uk-grid>
+        <div class="uk-text-center" style="color: #D2242B;font-weight: 500;font-size: 16px;">Cam kết của Thiên Khôi</div>
+        <div class="home__title1 uk-text-center item__12">Tiềm năng và Thế mạnh <br class="uk-visible@m"> của chúng tôi</div>
+        <div class="uk-grid uk-child-width-1-2@m item__49-20 uk-flex-middle" uk-grid>
             <div>
                 <img src="images/camket.png" alt="">
             </div>
             <div>
-                
+                <?php
+                $data = array(
+                    array(
+                        'txt1' => 'Phát triển mạnh mẽ và hiệu quả nhất',
+                        'txt2' => 'đúng kế hoạch Công ty đã đề ra từ 2022-2025 và 2025-2030',
+                    ),
+                    array(
+                        'txt1' => 'Cung ứng nguồn nhân lực trình độ cao',
+                        'txt2' => 'chuẩn nghiệp vụ cho toàn thị trường Môi giới Bất động sản Việt Nam',
+                    ),
+                    array(
+                        'txt1' => 'Đem lại giá trị và lợi ích tối đa',
+                        'txt2' => 'cho người dùng tại Việt Nam khi sở hữu Bất động sản',
+                    ),
+                    array(
+                        'txt1' => 'Hợp tác chặt chẽ, toàn diện, đúng cam kết',
+                        'txt2' => 'với các Chủ đầu tư có cùng chiến lược phát triển với mong muốn phát triển lĩnh vực Bất Động Sản tại Việt Nam',
+                    ),
+                    array(
+                        'txt1' => 'Trở thành công ty phân phối uy tín nhất',
+                        'txt2' => 'cửa các Chủ đầu tư Bất động sản trong nước và quốc tế',
+                    ),
+                );
+                foreach ($data as $k=>$v): ?>
+                <div class="item__40-20">
+                    <div class="about__camket__txt1"><?= $k+1 ?>. <?= $v['txt1'] ?></div>
+                    <div class="about__camket__txt2 item__12"><?= $v['txt2'] ?></div>
+                </div>
+                <?php endforeach; ?>
             </div>
         </div>
     </div>
