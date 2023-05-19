@@ -13,7 +13,7 @@
                     <li><a href="tintuc.php">Sự kiện</a></li>
                     <li><a href="tintuc.php">Đào tạo</a></li>
                     <li><a href="kyguinhadat.php">Ký gửi nhà đất</a></li>
-                    <li><a href="">Liên hệ</a></li>
+                    <li><a href="lienhe.php">Liên hệ</a></li>
                 </ul>
             </div>
             <div class="uk-navbar-right">
@@ -28,7 +28,7 @@
                         <li><a href="tintuc.php">Sự kiện</a></li>
                         <li><a href="tintuc.php">Đào tạo</a></li>
                         <li><a href="kyguinhadat.php">Ký gửi nhà đất</a></li>
-                        <li><a href="">Liên hệ</a></li>
+                        <li><a href="lienhe.php">Liên hệ</a></li>
                     </ul>
                 </div>
             </div>

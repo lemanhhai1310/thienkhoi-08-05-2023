@@ -1,0 +1,8 @@
+.contact{
+  &__txt{
+    color: #262626;
+    font-weight: 500;
+    line-height: 1.81;
+    @include fluidx(16px,14px,font-size);
+  }
+}

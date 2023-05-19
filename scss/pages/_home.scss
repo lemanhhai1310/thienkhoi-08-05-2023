@@ -173,6 +173,13 @@
         padding: 40px;
       }
     }
+    &--contact{
+      @include fluidx(-220px,-120px,margin-top);
+      padding: 20px 14px;
+      @include media-breakpoint-up('m'){
+        padding: 40px;
+      }
+    }
     &__title1{
       color: #363636;
       line-height: 1.57;
