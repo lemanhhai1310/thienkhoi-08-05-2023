@@ -18,7 +18,7 @@
             </div>
             <div class="uk-navbar-right">
                 <div class="uk-navbar-item">
-                    <a href="" class="header__btn uk-button uk-button-danger">Tuyển dụng</a>
+                    <a href="tuyendung.php" class="header__btn uk-button uk-button-danger">Tuyển dụng</a>
                 </div>
                 <a class="uk-navbar-toggle uk-navbar-toggle-animate uk-hidden@m" uk-navbar-toggle-icon href="#"></a>
                 <div class="uk-navbar-dropdown">
